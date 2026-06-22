@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+vault_data/
+vault.db
+*.sec.b64
+*.pqcvault
