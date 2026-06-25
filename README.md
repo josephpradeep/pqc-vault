@@ -122,6 +122,3 @@ python -m cli.vault decrypt report.pdf.pqcvault --sec-key alice.kem.sec.b64 --ds
 pytest tests/ -v
 ```
 
-## Resume bullet point
-
-> Engineered a quantum-resistant file vault in Python using FastAPI and `liboqs-python`, implementing a hybrid cryptographic protocol with NIST-standardised ML-KEM-768 (FIPS 203) for key encapsulation and AES-256-GCM for symmetric encryption, with optional ML-DSA-65 (FIPS 204) digital signatures — defending against harvest-now-decrypt-later attacks in a REST API + CLI architecture backed by SQLite metadata storage.
